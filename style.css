@@ -1,0 +1,67 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: -0.04rem;
+}
+
+
+h1,h2,h3{
+    font-weight: 700;
+}
+
+.btn-custom{
+    transition:  all 0.5s ease;
+}
+
+.btn-custom:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    filter: brightness(90%);
+}
+
+.btn-custom:hover i {
+    transform: rotate(15deg) scale(1.2);
+    transition: transform 0.3s ease;
+}
+
+.card-estilizado{
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: default;
+}
+
+.card-estilizado:hover{
+    box-shadow: 0 15px 30px rgba(0,0,0,0.15) !important;
+}
+
+body.dark-mode {
+    background-color: #121212; /* Fundo quase preto */
+    color: #ffffff;
+}
+
+body.dark-mode .bg-light, 
+body.dark-mode .border {
+    background-color: #1e1e1e !important;
+    color: white;
+    border-color: #333 !important;
+}
+
+body {
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+#btnTopo {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+#btnTopo {
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+}
+
+#btnTopo.visivel {
+    opacity: 1;
+    visibility: visible;
+}
