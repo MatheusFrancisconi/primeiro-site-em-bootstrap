@@ -23,4 +23,4 @@ Desenvolvi para estudar sobre o Bootstrap e ver do que ele é capaz para me ajud
 <img width="1907" height="914" alt="image" src="https://github.com/user-attachments/assets/a6c4cd55-d372-412d-a1d8-c4765c57fbca" />
 
 ---
-👨‍💻 Desenvolvido por [Teu Nome ou Teu Usuário do GitHub]
+👨‍💻 Desenvolvido por Matheus Francisconi
